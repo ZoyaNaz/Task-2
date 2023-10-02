@@ -1,0 +1,423 @@
+
+header {
+       width: 100%;
+       height: 100vh ;
+                  background: #050203;
+                  background-size: cover;
+      }
+  .logo{
+
+         font-size: 2em;
+         letter-spacing: 2px;
+         font-weight: bold;
+         color: whitesmoke;
+  }
+  .logo span{
+
+       color: #BAB86C;
+       font-size: 1.8em;
+       font-weight: bold;
+  }
+ .menu a{
+
+ 	     text-decoration: none;
+ 	     color: white;
+ 	     font-size: 1.2em;
+ 	     padding: 0.5rem 1rem;
+ }
+ .menu a:nth-child(5){
+ 	background: green;
+ 	border-radius: 8px;
+ 	margin: 0 1rem;
+ }
+ .menu u1 {
+
+ 	display: inline-block;
+ 	margin: 0 0.5rem;
+ 	cursor: pointer;
+ 	size: 1.5em;
+
+ }
+ .menu a:hover{
+ 	background: green;
+ 	border-radius: 8px;
+ }
+nav{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.container{
+
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+}
+.left{
+	flex-basis: 60%;
+}
+.left h2{
+	color: #50C878;
+}
+.left h2 span{
+       font-size: 1.5em;
+       font-weight: bold;
+
+}
+.left h1{
+
+	color: whitesmoke;
+	font-family: 'poppins',sans-serif;
+	font-size: 3em;
+}
+.left p{
+
+	line-height: 2rem;
+	color: whitesmoke;
+}
+.right{
+	position: absolute;
+	        top: 30%;
+	     right: 2.5%;
+	        padding: 3%;
+}
+
+ #Hire{
+	text-decoration: none;
+	background: green;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	margin: 0 1rem;
+}
+#myr{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: 1px dashed white;
+    margin: 0 1rem;
+}
+#myr:hover{
+	background: grey;
+ 	border-radius: 8px;
+}
+ #Hire:hover{
+ 	background: black;
+ 	border-radius: 8px;
+ 	border: 1px dashed white;
+ }
+ #bio{
+      cursor: pointer;
+      padding: 150px 70px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+ } 
+ .leftbio img{
+    
+    width: 150%;
+    height: 30px 100px;
+ }
+
+ .leftbio{
+ 	flex-basis: 30%;
+ }
+ .rightbio{
+ 	flex-basis: 40%;
+ }
+.rightbio{
+    text-align: left;
+    padding: 0 90px;
+}
+.rightbio p{
+      margin: 15px 0;
+      line-height: 2.5rem;
+}
+.rightbio h1{
+       font-size: 2rem;
+}
+.rightbio p1{
+       font-weight: bold;
+       font-size: 1.5rem;
+       color: olive;
+}
+.info{
+       display: flex;
+       justify-content: space-around;
+       align-items: flex-start;
+       flex-wrap: wrap;
+       text-align: left ;
+}
+
+.info p1{
+       text-align: left;
+       display: flex;
+       justify-content: space-around;
+       align-items: flex-end;
+       flex-wrap: wrap;
+}
+.info p2{
+       text-align: left;
+       display: flex;
+       justify-content: space-around;
+       align-items: flex-start;
+       flex-wrap: wrap;
+}
+
+#follow {
+       text-align: center;
+}
+#follow p{
+
+   text-align: center;
+	font-size: 1.5rem;
+	margin: 0 0.5rem;
+
+}
+.link-h{
+	text-align: center;
+	margin-top: 2rem;
+}
+#CV{
+	text-decoration: none;
+	color: black;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+	border: 1px dashed grey;
+}
+#CV:hover{
+	background: grey;
+ 	border-radius: 8px;
+}
+.projects{
+	height: 1300px;
+	width: 1000px;
+}
+.heading{
+	color: whitesmoke;
+	text-decoration: none;
+	font-family: times,serif;
+	font-size: 1.5rem;
+	margin-left: 60%;
+	width: fit-content;
+	background-color: olive;
+	border-radius: 8px;
+	padding: 1rem 2rem;
+}
+.landing-page{
+	height: fit-content;
+	width: fit-content;
+	color: whitesmoke;
+	background: green;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+	border-radius: 8px;
+	margin: 0 2.5rem;
+	text-align: center;
+}
+.png{
+	height: 500px;
+	width: 1400px;
+	margin-left: 40px;
+	border: 2px dashed black;
+
+}
+.page{
+	height: fit-content;
+	width: fit-content;
+	margin-left: 65%;
+	color: whitesmoke;
+	font-size: 50px;
+	background-color: green;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+}
+.mylink{
+     color: dark blue;
+     border: 1px;
+     height: fit-content;
+	width: fit-content;
+	margin-left: 57%;
+	background-color: lightblue;
+	border-radius: 6px;
+    padding: 0.5rem 1rem; 
+
+}
+.my-skills a{
+       transform: translateY(-15px);
+        display: flex;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5rem;
+	padding: 1.5rem 2rem;
+	flex-direction: column;
+}
+.my-skills b{
+
+	height: fit-content;
+	width: fit-content;
+	margin-left: 45%;
+	color: whitesmoke;
+	font-size: 50px;
+	background-color: green;
+	border-radius: 8px;
+	font-size: 1.5rem;
+	padding: 1rem 2rem;
+}
+
+.my-skills a img {
+	margin-right: 70%;
+	width: 50%;
+	height: fit-content;
+	margin-left: 40%;
+	margin-bottom: 50%;
+}
+.photo{
+	position: absolute;
+	     right: 10%;
+	        padding: 1%;
+}
+.skills{
+	width: 100%;
+       height: 100vh ;
+}
+.video-Right{
+	margin-left: 15%;
+	margin-top: 10%;
+	width: 150%;
+}
+.video-Left{
+	margin-left: 15%;
+	margin-top: 10%;
+	width: 150%;
+}
+.video-Right a{
+	display: flex;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	padding: 0.5rem 1rem;
+	flex-direction: column;
+}
+.video-Left a{
+	 display: flex;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	padding: 0.5rem 1rem;
+	flex-direction: column;
+}
+#Projects a{
+	text-decoration: none;
+	margin-left: 45%;
+	color: whitesmoke;
+	font-size: 2rem;
+	padding: 0.5rem 3rem;
+	background: green;
+	border-radius: 8px;
+}
+#Pro{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+.contact a{
+         text-decoration: none;
+         display: inline-block ;
+         margin-left: 45%;
+         width: 100%;
+         font-size: 2rem;
+         color: black;
+
+         margin-top: 20%;
+}
+.contact input{
+	  display: inline-block ;
+         margin-left: 38%;
+         width: 25%;
+         font-size: 1.5rem;
+         color: black;
+         margin-top: 2%;
+         text-decoration: none;
+}
+#contact{
+	padding: 5% ;
+	background: #006A4E;
+}
+.contact p{
+	text-decoration: none;
+         display: inline-block ;
+         margin-left: 47%;
+         font-size: 1rem;
+         color: white;
+         margin-top: 5%;
+         background: black;
+         border-radius: 8px;
+         padding: 0.5rem 1rem;;
+}
+.contact p:hover{
+	background: green;
+	border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
